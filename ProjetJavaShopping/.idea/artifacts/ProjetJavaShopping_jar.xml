@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProjetJavaShopping:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjetJavaShopping_jar</output-path>
+    <root id="archive" name="ProjetJavaShopping.jar">
+      <element id="module-output" name="ProjetJavaShopping" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../JFreeChart/jfreechart-1.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../JFreeChart/jcommon-1.0.23.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../JDBC2023_IntelliJ/JDBC2023/src/mysql-connector-java-8.0.25.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

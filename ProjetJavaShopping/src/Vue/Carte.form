@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vue.Carte">
+  <grid id="27dc6" binding="jpCartePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <maximumSize width="238" height="293"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="6859d" binding="jpContainer" layout-manager="GridLayoutManager" row-count="6" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-14991295"/>
+          <font name="Baskerville Old Face" size="13" style="1"/>
+          <maximumSize width="238" height="293"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="98b48" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value="Promo : "/>
+            </properties>
+          </component>
+          <hspacer id="33dc2">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="62136" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value="Stock :"/>
+            </properties>
+          </component>
+          <component id="9dd4f" class="javax.swing.JLabel" binding="stockLabel">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="93dcf" class="javax.swing.JLabel" binding="promoLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="61ce4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Vue/icon/article.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f4cbf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value="Nom : "/>
+            </properties>
+          </component>
+          <component id="c2ab3" class="javax.swing.JLabel" binding="nomLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1834c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value="Catégorie :"/>
+            </properties>
+          </component>
+          <component id="96cb3" class="javax.swing.JLabel" binding="categorieLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face"/>
+              <foreground color="-4546455"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="335a6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value="Prix :"/>
+            </properties>
+          </component>
+          <component id="94c63" class="javax.swing.JLabel" binding="prixLabel">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c94d8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value="Description :"/>
+            </properties>
+          </component>
+          <component id="19258" class="javax.swing.JLabel" binding="descriptionLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a8328" class="javax.swing.JButton" binding="ajouterAuPanierButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14011855"/>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+              <foreground color="-4546455"/>
+              <text value="Ajouter au Panier"/>
+            </properties>
+          </component>
+          <component id="ee816" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="13" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

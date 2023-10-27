@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vue.Accueil">
+  <grid id="27dc6" binding="accueilPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="523" height="362"/>
+    </constraints>
+    <properties>
+      <background color="-15000805"/>
+      <foreground color="-15000805"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ea245" class="javax.swing.JButton" binding="clientButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2638451"/>
+          <font name="Baskerville Old Face" size="21" style="1"/>
+          <text value="Client"/>
+        </properties>
+      </component>
+      <component id="e3568" class="javax.swing.JButton" binding="adminButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2638451"/>
+          <font name="Baskerville Old Face" size="21" style="1"/>
+          <text value="Admin"/>
+        </properties>
+      </component>
+      <component id="d59e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1973791"/>
+          <font name="Baskerville Old Face" size="20" style="1"/>
+          <foreground color="-2572666"/>
+          <text value="Continuer en tant que"/>
+        </properties>
+      </component>
+      <component id="2309b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="170" height="199"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="Vue/icon/marque.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
